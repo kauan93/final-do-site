@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    font-family: 'Sarala', sans-serif;
+}
+
+#esquerda{
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+#direita{
+    float: right;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    
+}
+
+body{
+    background-color: white;
+}
+
+.i1{
+    margin-top: 100px;
+    background: #696969;
+    height: 721px;
+    width: 591px;
+    border-radius: 20%
+}
+
+.i1 img {
+    width: 450px;
+    height: 450px;
+    margin: 70px;
+    border-radius: 15%;
+}
+
+.i1 h2{
+    margin-left: 100px;
+    font-size: 2.5rem;
+    margin-top: -55px;
+    
+}
+
+.i2{
+    margin-top: 300px;
+    background: #696969;
+    height: 721px;
+    width: 591px;
+    border-radius: 20%
+}
+
+.i2 img{
+    width: 450px;
+    height: 450px;
+    margin: 70px;
+    border-radius: 15%;
+}
+
+.i2 h2{
+    margin-left: 150px;
+    font-size: 2.5rem;
+    margin-top: -55px;
+}
+
+.i3{
+    margin-top: 300px;
+    background: #696969;
+    height: 721px;
+    width: 591px;
+    border-radius: 20%
+}
+
+.i3 img{
+    width: 450px;
+    height: 450px;
+    margin: 70px;
+    border-radius: 15%;
+}
+
+.i3 h2{
+    margin-left: 180px;
+    font-size: 2.5rem;
+    margin-top: -55px;
+}
+
+
+
+.i11{
+    margin-top: 100px;
+    background: #696969;
+    height: 721px;
+    width: 591px;
+    border-radius: 20%
+}
+
+.i11 img{
+    width: 450px;
+    height: 450px;
+    margin: 70px;
+    border-radius: 15%;
+}
+
+.i11 h2{
+    margin-left: 150px;
+    font-size: 2.5rem;
+    margin-top: -55px;
+}
+.i12{
+    margin-top: 300px;
+    background: #696969;
+    height: 721px;
+    width: 591px;
+    border-radius: 20%
+}
+
+.i12 img{
+    width: 450px;
+    height: 450px;
+    margin: 70px;
+    border-radius: 15%;
+}
+
+.i12 h2{
+    margin-left: 230px;
+    font-size: 2.5rem;
+    margin-top: -55px;
+}
+
+.i13{
+    margin-top: 300px;
+    background: #696969;
+    height: 721px;
+    width: 591px;
+    border-radius: 20%
+}
+
+.i13 img{
+    width: 450px;
+    height: 450px;
+    margin: 70px;
+    border-radius: 15%;
+}
+
+.i13 h2{
+    margin-left: 160px;
+    font-size: 2.5rem;
+    margin-top: -55px;
+}
+
+
+.elm1{
+    font-family: 'Sarala', sans-serif;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.god{
+    background-color: #B0C4DE;
+}
+
+.global{
+    padding-top: 3px;
+    margin-left: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
