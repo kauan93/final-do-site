@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background: #778899;
+}
+
+.container-1{
+    background-color: #B0C4DE;
+}
+
+.global{
+    padding-top: 3px;
+    margin-left: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.elemento2{
+    font-family: 'Sarala', sans-serif;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+
+}

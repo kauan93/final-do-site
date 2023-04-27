@@ -26,29 +26,29 @@
             <span>OR</span>
         </div>
 
-        <form action="">
+        <form name="form2" method="post" action="">
             <label for="name">
                 <span>Name</span>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="txtName">
+                <span id="erroNome"></span>
             </label>
             <label for="email">
                 <span>E-mail</span>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="txtEmail">
+                <span id="erroEmail"></span>
             </label>
             <label for="password">
                 <span>Password</span>
-                <input type="password" id="password" name="password">
+                <input type="password" id="password" name="txtPassword">
+                <span id="erroSenha"></span>
             </label>
-            <label for="password">
-                <span>Confirm Password</span>
-                <input type="password" id="password" name="password">
-            </label>
-            <input type="submit" value="Sign Up">
+            <input type="button" value="Sign Up" onclick="verificar()">
         </form>
     </main>
     <section class="images">
         <img src="assets/mobile.svg" alt="">
         <div class="circle"></div>
     </section>
+    <script src="validacao-sign-up.js"></script>
 </body>
 </html>
