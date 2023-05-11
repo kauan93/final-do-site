@@ -1,0 +1,97 @@
+<%
+  String username = (String) session.getAttribute("username");
+  if (username == null) {
+    response.sendRedirect("login.jsp");
+  }
+%>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Site pra faculdade</title>
+   <link rel="stylesheet" href="main.css">
+</head>
+<body>
+   
+   <nav class="container-1">
+      <div class="global">
+      <div class="elemento1"><img src="assets/Gostoso.png" width="200px"> </div>
+   <div class="elemento2"><a href="carrinho.html">Catálogo</a>
+      <a href="sign Up.html">Sign Up</a>
+       <a href="Sign in.html">Sign in</a>
+       <a href="carrinho.html"><img src="assets/carrinho-removebg-preview.png" width="50px" height="30px"></a></div><!--Elemento2--> </div><!--Global-->
+   </nav>
+
+      <section class="conteudo1">
+       <div class="bg"> <img src="assets/Bg1.jpg" alt="Background-error" height="550px" width="1920px"></div> 
+      <div class="txt"><h1>Venha conhecer nossos vidros</h1></div>
+   </section>
+<div class="sc1">
+   <section carrossel>
+<div class="slider">
+   <div class="slides">
+      <!--Radio buttons-->
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <!--Fim radio buttons-->
+
+      <!--Slide images-->
+      <div class="slide first">
+         <img src="assets/C1.jpg" alt="img-1">
+      </div>
+      <div class="slide">
+         <img src="assets/C2.jpg" alt="img-2">
+      </div>
+      <div class="slide">
+         <img src="assets/C3.jpg" alt="img-3">
+         <!--Final Slide images-->
+
+         <!--Navigation auto-->
+         <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <!--Final Navigation auto-->
+         </div><!--nv-auto-->
+      </div><!--slide-->
+      
+   </div><!--Slides-->
+   <div class="manual-navigation">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+   </div>
+</div>
+
+
+
+
+
+   <script src="Scripts.js"></script>
+</section></div><!--Sc1-->
+
+
+         <section class="con1">
+<p class="1"><strong>Vidros resistentes</strong></p>
+<p class="2">O vidro blindado tem menos riscos de te machucar, se quebrado</p>
+<p class="3">Na compra de um vidro<strong> 20% de desconto</strong> na proxima compra</p>
+         </section>
+         <section class="con2">
+            <iframe class="con3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2176.5658228389298!2d-46.43113033684552!3d-23.44123850859548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6207d05baa67%3A0x74b4e77f11436a76!2sFanavid%20F%C3%A1brica%20Nacional%20de%20Vidros%20de%20Seguran%C3%A7a!5e0!3m2!1spt-BR!2sbr!4v1676681681632!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="ar"><h2>LOCALIZAÇÃO DA LOJA</h2>
+            <p>Rua: Av. José miguel ackel<br>Bairro: Parque industrial cumbica<br>
+               Cidade: Guarulhos</p>
+            <h2 class="fx">HORARIO DE FUNCIONAMENTO</h2>
+         <p>Das 8:00 Horas às 18:00</p></div> <!--ar-->
+         </section>
+         <footer class="fim">
+            <div class="final">
+<a href="https://www.instagram.com/fanavidoficial/"><img src="assets/social media logo.png"></a>
+<a href="#"><img src="assets/socm.png"></a></div><!--Final-->
+         </footer>
+</body>
+</html>
