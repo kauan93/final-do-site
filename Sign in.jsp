@@ -26,7 +26,7 @@
             <span>OR</span>
         </div>
 
-        <form name="form1" method="post" action="LoginServlet">
+        <form name="form1" method="post" action="verificalogin.jsp">
             <label for="name">
                 <span>Name</span>
                 <input type="text" id="name" name="txtNome">

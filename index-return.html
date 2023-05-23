@@ -1,10 +1,3 @@
-<%
-  String username = (String) session.getAttribute("username");
-  if (username == null) {
-    response.sendRedirect("login.jsp");
-  }
-%>
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -12,17 +5,15 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Site pra faculdade</title>
-   <link rel="stylesheet" href="main.css">
+   <link rel="stylesheet" href="main-return.css">
 </head>
 <body>
    
    <nav class="container-1">
       <div class="global">
       <div class="elemento1"><img src="assets/Gostoso.png" width="200px"> </div>
-   <div class="elemento2"><a href="carrinho.html">Catálogo</a>
-      <a href="sign Up.html">Sign Up</a>
-       <a href="Sign in.html">Sign in</a>
-       <a href="carrinho.html"><img src="assets/carrinho-removebg-preview.png" width="50px" height="30px"></a></div><!--Elemento2--> </div><!--Global-->
+   <div class="elemento2"><a href="carrinho-return.html">Catálogo</a>
+       <a href="carrinho-return.html"><img src="assets/carrinho-removebg-preview.png" width="50px" height="30px"></a></div><!--Elemento2--> </div><!--Global-->
    </nav>
 
       <section class="conteudo1">

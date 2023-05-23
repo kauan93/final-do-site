@@ -38,5 +38,5 @@ conexao.close();
 stm.close() ;
 
 out.print("Cadastro feito com sucesso");
-
+out.print("<a href='index.html'>Voltar</a>") ;
 %>
